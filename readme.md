@@ -19,8 +19,8 @@ Data Scientist with Python
 
 
 Indice del career
-1. [Intro to Python for Data Science](https://github.com/MayumyCH/dc_datascientist_with_python_dsfem/blob/main/1.Introduction%20to%20Python.ipynb)
-2. Intermediate Python for Data Science
+1. [Intro to Python for Data Science](https://github.com/MayumyCH/dc_datascientist_with_python_dsfem/blob/main/notebooks/1.Introduction%20to%20Python.ipynb)
+2. [Intermediate Python for Data Science](https://github.com/MayumyCH/dc_datascientist_with_python_dsfem/blob/main/notebooks/2.Intermediate%20Python.ipynb)
 
 ---
-⌨️ con ❤️ por [Heydy Mayumy](https://github.com/MayumyCH)  😊
+⌨️ con ❤️ por [Heydy Mayumy CH 💀](https://github.com/MayumyCH)
