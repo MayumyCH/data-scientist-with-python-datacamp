@@ -21,6 +21,9 @@ Data Scientist with Python
 Indice del career
 1. [Intro to Python for Data Science](https://github.com/MayumyCH/dc_datascientist_with_python_dsfem/blob/main/notebooks/1.Introduction%20to%20Python.ipynb)
 2. [Intermediate Python for Data Science](https://github.com/MayumyCH/dc_datascientist_with_python_dsfem/blob/main/notebooks/2.Intermediate%20Python.ipynb)
+3. [🌟 Project: Analyzing TV Data](https://github.com/MayumyCH/dc_project_analyzing_super_bowl_tv_data_with_python)
+4. [Data manipulation with pandas]()
+5. [🌟 Project: The Android App  Market on Google Play]()
 
 ---
 ⌨️ con ❤️ por [Heydy Mayumy CH 💀](https://github.com/MayumyCH)
