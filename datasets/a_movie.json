@@ -1,0 +1,40 @@
+{
+    "Title": "The Social Network",
+    "Year": "2010",
+    "Rated": "PG-13",
+    "Released": "01 Oct 2010",
+    "Runtime": "120 min",
+    "Genre": "Biography, Drama",
+    "Director": "David Fincher",
+    "Writer": "Aaron Sorkin (screenplay), Ben Mezrich (book)",
+    "Actors": "Jesse Eisenberg, Rooney Mara, Bryan Barter, Dustin Fitzsimons",
+    "Plot": "As Harvard student Mark Zuckerberg creates the social networking site that would become known as Facebook, he is sued by the twins who claimed he stole their idea, and by the co-founder who was later squeezed out of the business.",
+    "Language": "English, French",
+    "Country": "USA",
+    "Awards": "Won 3 Oscars. Another 168 wins & 186 nominations.",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BOGUyZDUxZjEtMmIzMC00MzlmLTg4MGItZWJmMzBhZjE0Mjc1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
+    "Ratings": [
+        {
+            "Source": "Internet Movie Database",
+            "Value": "7.7/10"
+        },
+        {
+            "Source": "Rotten Tomatoes",
+            "Value": "96%"
+        },
+        {
+            "Source": "Metacritic",
+            "Value": "95/100"
+        }
+    ],
+    "Metascore": "95",
+    "imdbRating": "7.7",
+    "imdbVotes": "630,681",
+    "imdbID": "tt1285016",
+    "Type": "movie",
+    "DVD": "05 Jun 2012",
+    "BoxOffice": "$96,962,694",
+    "Production": "Scott Rudin Productions, Michael De Luca, Trigger Street Productions",
+    "Website": "N/A",
+    "Response": "True"
+}
