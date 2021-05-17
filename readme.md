@@ -10,7 +10,7 @@ _Data Challenge 365 Fem es una iniciativa de Data Science Fem la cual tiene como
 - **Meta Corto Plazo:**
   - [x] Terminar hasta el #5 del cronograma para fin de año 2020 
   - [x] Terminar hasta el #9 del cronograma para febrero 2021
-  - [ ] Terminar hasta el #14 del cronograma para abril 2021
+  - [x] Terminar hasta el #14 del cronograma para abril 2021
   - [ ] Terminar hasta el #19 del cronograma para junio 2021
   - [ ] Terminar hasta el #24 del cronograma para agosto 2021
   - [ ] Terminar hasta el #29 del cronograma para noviembre 2021
@@ -38,6 +38,8 @@ Data Scientist with Python
 10. [Python Data Science Toolbox (Part 1)]()
 11. [Python Data Science Toolbox (Part 2)]()
 12. [Intermediate Data Visualization with Seaborn]()
+13. [Intermediate Data Visualization with Seaborn]()
+14. [Intermediate Data Visualization with Seaborn]()
 
 ---
 ⌨️ con ❤️ por [Heydy Mayumy CH 💀](https://github.com/MayumyCH)
