@@ -1,0 +1,6 @@
+﻿;cleanliness;safety;satisfaction
+0;Clean;Neutral;Very satisfied
+1;Average;Very safe;Neutral
+2;Somewhat clean;Somewhat safe;Somewhat satisfied
+3;Somewhat dirty;Very unsafe;Somewhat unsatisfied
+4;Dirty;Somewhat unsafe;Very unsatisfied

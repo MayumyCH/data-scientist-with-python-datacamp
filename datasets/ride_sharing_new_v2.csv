@@ -1,0 +1,21 @@
+;;duration;station_A_id;station_A_name;station_B_id;station_B_name;bike_id;user_type;user_birth_year;user_gender;tire_sizes;ride_date
+0;12;minutes;81;Berry St at 4th St;323;Broadway at Kearny;5480;Subscriber;1959;Male;27;19/01/2020
+1;24;minutes;3;Powell St BART Station (Market St at 4th St);118;Eureka Valley Recreation Center;5193;Subscriber;1965;Male;26;24/10/2018
+2;8;minutes;67;San Francisco Caltrain Station 2  (Townsend St...;23;The Embarcadero at Steuart St;3652;Subscriber;1993;Male;26;25/12/2017
+3;4;minutes;16;Steuart St at Market St;28;The Embarcadero at Bryant St;1883;Subscriber;1979;Male;29;17/05/2022
+4;11;minutes;22;Howard St at Beale St;350;8th St at Brannan St;4626;Subscriber;1994;Male;27;29/01/2019
+5;10;minutes;22;Howard St at Beale St;6;The Embarcadero at Sansome St;3279;Subscriber;1979;Male;26;26/03/2017
+6;16;minutes;67;San Francisco Caltrain Station 2  (Townsend St...;107;17th St at Dolores St;1035;Subscriber;1981;Male;29;27/01/2018
+7;9;minutes;30;San Francisco Caltrain (Townsend St at 4th St);97;14th St at Mission St;5286;Subscriber;1991;Male;29;9/06/2017
+8;21;minutes;81;Berry St at 4th St;16;Steuart St at Market St;2124;Customer;1982;Female;26;27/12/2018
+9;5;minutes;30;San Francisco Caltrain (Townsend St at 4th St);62;Victoria Manalo Draves Park;333;Subscriber;1994;Male;26;2/08/2019
+10;19;minutes;81;Berry St at 4th St;16;Steuart St at Market St;1883;Customer;1983;Male;29;18/09/2018
+11;6;minutes;3;Powell St BART Station (Market St at 4th St);26;1st St at Folsom St;5331;Subscriber;1990;Male;26;7/03/2019
+12;7;minutes;3;Powell St BART Station (Market St at 4th St);27;Beale St at Harrison St;1863;Subscriber;1998;Male;26;16/08/2017
+13;187;minutes;15;San Francisco Ferry Building (Harry Bridges Pl...;355;23rd St at Tennessee St;674;Customer;1987;Female;27;14/03/2018
+14;13;minutes;21;Montgomery St BART Station (Market St at 2nd St);74;Laguna St at Hayes St;5487;Subscriber;1997;Male;27;30/11/2018
+15;4;minutes;3;Powell St BART Station (Market St at 4th St);321;5th St at Folsom;1606;Subscriber;1995;Male;26;24/11/2017
+16;32;minutes;22;Howard St at Beale St;122;19th St at Mission St;3661;Subscriber;1990;Male;26;29/05/2019
+17;5;minutes;22;Howard St at Beale St;11;Davis St at Jackson St;4969;Customer;1964;Male;27;12/01/2017
+18;16;minutes;16;Steuart St at Market St;42;San Francisco City Hall (Polk St at Grove St);5000;Subscriber;2000;Female;26;17/05/2022
+19;17;minutes;16;Steuart St at Market St;42;San Francisco City Hall (Polk St at Grove St);5230;Subscriber;2000;Male;29;26/09/2017
