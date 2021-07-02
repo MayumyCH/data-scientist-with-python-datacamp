@@ -1,0 +1,158 @@
+16. Cleaning Data in Python
+-----------------------------
+
+df_ride.dtypes
+df_ride.info()
+
+# CAMBIAR EL TIPO DE COLUMNA
+# --------------------------
+
+df_ride['ColumnA'] = df_ride['ColumnA'].str.strip('$') # Para quitar $ en cada valor de la columna
+df_ride['ColumnA'] = df_ride['ColumnA'].astype('int')
+assert df_ride['ColumnA'].dtype == 'int'  # -- Comparar
+
+df["ColumnB"] = df["ColumnB"].astype('category')
+df.describe()
+
+
+# CORTAR DATAFRAME DEPENDIENDO DE LA CONDICION
+# ---------------------------------------------
+
+# Eliminando valores filtrando INT
+
+df_ride = df_ride[df_ride['ColumnA']  > 5]
+df_ride.drop(df_ride[df_ride['ColumnA'] > 5].index, inplace = True)
+df_ride.loc[df_ride['ColumnA'] > 5,'ColumnA'] = 5
+
+assert df_ride['ColumnA'].max() <= 5 # -- Comparar
+
+
+# Eliminando valores filtrando DATE || FECHAS
+
+import datetime as dt
+today = dt.date.today()
+
+df_ride['ColumnA'] = pd.to_datetime(df_ride['ColumnA'])
+assert df_ride['ColumnA'].dtype == 'datetime64[ns]' # -- Comparar
+
+df_ride = df_ride[df_ride['ColumnA'] < today]
+df_ride.drop(df_ride[df_ride['ColumnA'] > today].index, inplace = True)
+df_ride.loc[df_ride['ColumnA'] > today,'ColumnA'] = today
+assert df_ride['ColumnA'].max().date() <= today  # -- Comparar
+
+
+# ELIMINAR DUPLICADO
+# ---------------------------------------------
+
+duplicates = df.duplicated(subset = column_names, keep = False) # keep = False todos los duplicados
+df[duplicates].sort_values(by = 'ColumnB')
+
+column_names = ['ColumnA','ColumnB']
+summaries = {'ColumnC': 'max','ColumnD': 'mean'}
+
+df.drop_duplicates(inplace = True) # Eliminar los duplicado completos
+df= df.groupby(by = column_names).agg(summaries).reset_index() # Fusionar las filas duplicadas incompletas
+
+
+# VARIABLE CATEGORICOS FILTRAR DATOS DE INTERES
+# ---------------------------------------------
+print('Cleanliness: ', airlines['cleanliness'].unique(), "\n")
+
+cat_clean = set(airlines['cleanliness']).difference(categories['cleanliness'])
+cat_clean_rows = airlines['cleanliness'].isin(cat_clean)
+print(airlines[cat_clean_rows]) # Data que el valor errado
+# print(airlines[~cat_clean_rows]) # Data que nos interesa
+
+
+# VARIABLE CATEGORICOS INCONSISTENCIAS
+# ---------------------------------------------
+
+marriage_status.groupby('marriage_status').count()
+marriage_status['marriage_status'].value_counts()
+
+WHITE SPACES AND INCONSISTENCIAS
+marriage_status['marriage_status'] = marriage_status['marriage_status'].str.strip()
+marriage_status['marriage_status'] = marriage_status['marriage_status'].str.upper()
+marriage_status['marriage_status'] = marriage_status['marriage_status'].str.lower()
+
+CREATING OR REMAPPING CATEGORIES
+import pandas as pd
+
+pandas.quit()
+
+ranges = [0, 60, 180, np.inf]
+label_names = ['short', 'medium', 'long']
+
+# collapsing
+airlines['wait_type'] = pd.cut(airlines['wait_min'], bins=ranges, labels = label_names)
+airlines['wait_type'] = pd.qcut(airlines['wait_min'], q=3, labels = label_names)
+
+# mappings
+mappings = {'Monday':'weekday', 'Tuesday':'weekday', 'Wednesday': 'weekday', 
+            'Thursday': 'weekday', 'Friday': 'weekday', 
+            'Saturday': 'weekend', 'Sunday': 'weekend'}
+airlines['day_week'] = airlines['day'].replace(mappings)
+airlines['day_week'].unique()
+
+
+# UNIFORMIZANDO LOS DATOS
+# ------------------------------------
+
+#Formateando
+acct_eu = banking['acct_cur'] == 'euro'
+banking.loc[acct_eu, 'acct_amount'] = banking.loc[acct_eu, 'acct_amount'] * 1.1
+banking.loc[acct_eu, 'acct_cur'] = 'dollar'
+assert banking['acct_cur'].unique() == 'dollar'
+
+#Formateando fechas
+pandas.to_datetime()
+
+banking['account_opened'] = pd.to_datetime(banking['account_opened']) # Si sale error hacer la sgte linea
+banking['account_opened'] = pd.to_datetime(banking['account_opened'],
+                                           infer_datetime_format = True,
+                                           errors = 'coerce') 
+# infer_datetime_format -> Inferir el formato de cada fecha 
+# errors = 'coerce' -> Devuelve NA para las filas en las que falló la conversión 
+
+banking['acct_year'] = banking['account_opened'].dt.strftime('%Y') # strftime("%d-%m-%Y")
+banking['acct_year'].head()
+
+# Cruzando data para validar general
+fund_columns = ['fund_A', 'fund_B', 'fund_C', 'fund_D']
+inv_equ = banking[fund_columns].sum(axis=1) == banking['inv_amount'] # sum(axis=1) para sumar filas
+consistent_inv = banking[inv_equ]
+inconsistent_inv = banking[~inv_equ]
+print("Number of inconsistent investments: ", inconsistent_inv.shape[0])
+
+# Cruzando data para validar fechas
+today = dt.date.today()
+ages_manual = today.year - banking['birth_date'].dt.year
+age_equ = ages_manual == banking['age']
+consistent_ages = banking[age_equ]
+inconsistent_ages = banking[~age_equ]
+print("Number of inconsistent ages: ", inconsistent_ages.shape[0])
+
+# Missing
+# Completamente al azar || fallar al azar || fallar no al azar
+import missingno as msno
+import matplotlib.pyplot as plt
+
+print(banking.isna().sum())
+msno.matrix(airquality)  # Matriz que muestra como se distribuyen los valores perdidos en una columna
+plt.show()
+
+missing = banking[banking['inv_amount'].isna()]
+complete = banking[~banking['inv_amount'].isna()]
+
+complete.describe()
+
+banking_sorted = banking.sort_values(by ='inv_amount')
+msno.matrix(banking_sorted)
+plt.show()
+
+
+# Dropping missing values
+banking_fullid = banking.dropna(subset = ['cust_id'])
+co2_mean = airquality['CO2'].mean()
+airquality_imputed = airquality.fillna({'CO2': co2_mean})
+print(airquality_imputed .isna().sum())
