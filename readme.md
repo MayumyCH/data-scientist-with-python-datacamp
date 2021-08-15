@@ -11,7 +11,7 @@ _Data Challenge 365 Fem es una iniciativa de Data Science Fem la cual tiene como
   - [x] Terminar hasta el #5 del cronograma para fin de año 2020 
   - [x] Terminar hasta el #9 del cronograma para febrero 2021
   - [x] Terminar hasta el #14 del cronograma para abril 2021
-  - [ ] Terminar hasta el #19 del cronograma para junio 2021
+  - [x] Terminar hasta el #19 del cronograma para junio 2021
   - [ ] Terminar hasta el #24 del cronograma para agosto 2021
   - [ ] Terminar hasta el #29 del cronograma para noviembre 2021
 
@@ -55,5 +55,11 @@ Data Scientist with Python
 28.	Case study: School budgeting with machine learning in python: [Notebook]() - [Resumen codigo]()
 29.	Cluster analysis in python: [Notebook]() - [Resumen codigo]()
 
+## Resources 🤖 
+- [Data School - Kevin Markham](https://www.dataschool.io/) 
+
+## Teachers 🤖 
+- [Kevin Markham](https://www.datacamp.com/instructors/kevinmarkham)
+
 ---
-⌨️ con ❤️ por [Heydy Mayumy CH 💀](https://github.com/MayumyCH)
+⌨️ con ❤️ por [Mayumy CH 💀](https://github.com/MayumyCH)
