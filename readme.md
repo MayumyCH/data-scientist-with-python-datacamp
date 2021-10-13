@@ -1,30 +1,30 @@
 # Data Challenge 365 Fem
 
-![banner_datachallenge365](https://raw.githubusercontent.com/MayumyCH/data-scientist-with-python-datacamp/main/datascienciefem/banner_challenge.png)
+![banner_datachallenge365](https://raw.githubusercontent.com/MayumyCH/data-scientist-with-python-datacamp/main/0.%20Resources/images/banner_challenge.png)
 
 _Data Challenge 365 Fem es una iniciativa de Data Science Fem la cual tiene como meta realizar un entrenamiento de 365 días (12 meses) en la plataforma de Datacamp y asi poder entrenarte para la Carrera de Data Science_
 
-## Metas 🚀
+## 🚀 Metas 
 
 - **Meta Largo Plazo:** Terminar todo los cursos de #DataChallenge365
 - **Meta Corto Plazo:**
-  - [x] Terminar hasta el #5 del cronograma para fin de año 2020 
-  - [x] Terminar hasta el #9 del cronograma para febrero 2021
-  - [x] Terminar hasta el #14 del cronograma para abril 2021
-  - [x] Terminar hasta el #19 del cronograma para junio 2021
-  - [ ] Terminar hasta el #24 del cronograma para agosto 2021
-  - [ ] Terminar hasta el #29 del cronograma para noviembre 2021
+  - [x] Terminar hasta el #05 del cronograma para fin de año 2020 
+  - [x] Terminar hasta el #09 del cronograma para Febrero 2021
+  - [x] Terminar hasta el #14 del cronograma para Abril 2021
+  - [x] Terminar hasta el #19 del cronograma para Junio 2021
+  - [x] Terminar hasta el #24 del cronograma para Agosto 2021
+  - [-] Terminar hasta el #29 del cronograma para Noviembre 2021
 
 
-## Career 🤖 
-[Link del Career](https://learn.datacamp.com/career-tracks/data-scientist-with-python)
+## 🤖 Career  
+[LINK DEL CAREER](https://learn.datacamp.com/career-tracks/data-scientist-with-python)
 
 ```
 Data Scientist with Python
 🎆 23 Courses || 👩🏻‍💼 6 Projects
 ```
 
-**Indice del career**
+**INDICE DEL CAREER**
 01. Intro to Python for Data Science: [Notebook]() - [Resumen codigo]()🌟
 02. Intermediate Python for Data Scienc: [Notebook]() - [Resumen codigo]() 🌟
 03. 💻 **Project: Analyzing TV Data**: [Notebook]() - [Resumen codigo]()
@@ -55,10 +55,10 @@ Data Scientist with Python
 28.	Case study: School budgeting with machine learning in python: [Notebook]() - [Resumen codigo]()
 29.	Cluster analysis in python: [Notebook]() - [Resumen codigo]()
 
-## Resources 🤖 
+## 📌 Resources 
 - [Data School - Kevin Markham](https://www.dataschool.io/) 
 
-## Teachers 🤖 
+## 💻Teachers
 - [Kevin Markham](https://www.datacamp.com/instructors/kevinmarkham)
 
 ---
