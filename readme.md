@@ -8,12 +8,12 @@ _Data Challenge 365 Fem es una iniciativa de Data Science Fem la cual tiene como
 
 - **Meta Largo Plazo:** Terminar todo los cursos de #DataChallenge365
 - **Meta Corto Plazo:**
-  - [x] Terminar hasta el #05 del cronograma para fin de año 2020 
-  - [x] Terminar hasta el #09 del cronograma para Febrero 2021
-  - [x] Terminar hasta el #14 del cronograma para Abril 2021
-  - [x] Terminar hasta el #19 del cronograma para Junio 2021
-  - [x] Terminar hasta el #24 del cronograma para Agosto 2021
-  - [-] Terminar hasta el #29 del cronograma para Noviembre 2021
+  - ✅ Terminar hasta el #05 del cronograma para Diciembre 2020 
+  - ✅ Terminar hasta el #09 del cronograma para Febrero 2021
+  - ✅ Terminar hasta el #14 del cronograma para Abril 2021
+  - ✅ Terminar hasta el #19 del cronograma para Junio 2021
+  - ✅ Terminar hasta el #24 del cronograma para Agosto 2021
+  - [] Terminar hasta el #29 del cronograma para Noviembre 2021
 
 
 ## 🤖 Career  
